@@ -1,3 +1,16 @@
-/*body {
-  background-color: yellow;
-}*/
+#mainNav {
+  background-color: #111 !important;
+}
+
+header {
+  background: url(/img/bg.jpg);
+  background-size: cover;
+}
+
+.card {
+  border: none !important;
+}
+
+.port-img {
+  
+}
