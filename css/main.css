@@ -1,16 +1,55 @@
-#mainNav {
+#mainNav, #footer {
   background-color: #111 !important;
 }
 
-header {
+body > header {
+  height: 100vh;
+  padding: 40vh 0 0 0;
   background: url(/img/bg.jpg);
   background-size: cover;
 }
 
-.card {
-  border: none !important;
+#price {
+  background: url(/img/bg-2.jpg);
 }
 
-.port-img {
-  
+body > header:after {
+  background-color: black;
+}
+
+#services .card, #stock .card {
+  border: none;
+  background-color: #f8f9fa;
+}
+
+.stock-item {
+  margin-bottom: 20px;
+}
+
+.carousel-caption {
+  right: 15%;
+  top: 25%;
+  left: 15%;
+}
+
+#about .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.controls > input, .controls > textarea {
+  border: none;
+}
+
+
+.sized {
+ -moz-transition: all 0.2s ease-out;
+ -o-transition: all 0.2s ease-out;
+ -webkit-transition: all 0.2s ease-out;
+ } 
+
+.sized:hover {
+ -webkit-transform: scale(1.02);
+ -moz-transform: scale(1.02);
+ -o-transform: scale(1.02);
 }
