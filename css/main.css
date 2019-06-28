@@ -7,9 +7,10 @@ body > header {
   padding: 40vh 0 0 0;
   background: url(/img/bg.jpg);
   background-size: cover;
+  background-color: #111 !important;
 }
 
-#price {
+#price, #contact, #advantage {
   background: url(/img/bg-2.jpg);
 }
 
@@ -23,7 +24,7 @@ body > header:after {
 }
 
 .stock-item {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .carousel-caption {
@@ -38,9 +39,8 @@ body > header:after {
 }
 
 .controls > input, .controls > textarea {
-  border: none;
+  border-color: #eee;
 }
-
 
 .sized {
  -moz-transition: all 0.2s ease-out;
@@ -52,4 +52,8 @@ body > header:after {
  -webkit-transform: scale(1.02);
  -moz-transform: scale(1.02);
  -o-transform: scale(1.02);
+}
+
+body > section {
+  padding: 80px 0;
 }
